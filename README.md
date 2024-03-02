@@ -22,3 +22,8 @@ W7Controller: Displays available courses and allows users to book them.
 W8Controller & W9Controller: Manage the booking process for specific photography services.
 W10Controller: Displays booking details for users.
 
+**Contributors**
+
+Amasi & Wadha
+
+Feel free to explore the codebase and make any modifications or improvements as needed!
