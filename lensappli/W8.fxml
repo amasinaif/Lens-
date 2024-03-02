@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lensappli.W8Controller">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backgruond.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="291.0" fitWidth="190.0" layoutX="42.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Necklace_w8.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbl_name3" layoutX="338.0" layoutY="41.0" prefHeight="23.0" prefWidth="169.0" text="Product(Jewelry)" textFill="#b1917a">
+         <font>
+            <Font name="Century Schoolbook Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="249.0" layoutX="273.0" layoutY="86.0" opacity="0.8" stroke="WHITE" strokeType="INSIDE" width="297.0" />
+      <Text fill="#b1917a" layoutX="287.0" layoutY="114.0" lineSpacing="6.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Join us in this comprehensive and exciting course all about jewellery photography.If you are a jeweller wanting to learn to take professional quality images of your work from home or your studio this is the course for you." textAlignment="JUSTIFY" wrappingWidth="272.74224853515625">
+         <font>
+            <Font name="Century Schoolbook" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="56.0" fitWidth="51.0" layoutX="429.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@3%20star%20icon%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="level" fill="#e0a698" layoutX="429.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level: Beginner" textAlignment="CENTER" wrappingWidth="51.0">
+         <font>
+            <Font name="Century Schoolbook" size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="362.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cameraicon.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="inst" fill="#e0a698" layoutX="348.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructor: Amasi" textAlignment="CENTER" wrappingWidth="62.742279052734375">
+         <font>
+            <Font name="Century Schoolbook" size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="34.0" fitWidth="42.0" layoutX="297.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@timeicon.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="time" fill="#e0a698" layoutX="283.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Ash Cafe 4-8 pm 4/12/2022" textAlignment="CENTER" wrappingWidth="62.742279052734375">
+         <font>
+            <Font name="Century Schoolbook" size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="507.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@moneyicon.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="price" fill="#e0a698" layoutX="499.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount: 350 SAR" textAlignment="CENTER" wrappingWidth="51.0">
+         <font>
+            <Font name="Century Schoolbook" size="11.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_w8_bok" layoutX="358.0" layoutY="293.0" mnemonicParsing="false" onAction="#click_book" prefHeight="28.0" prefWidth="63.0" style="-fx-background-color: D0DBCA;" text="Book" textFill="#b1917a">
+         <font>
+            <Font name="Century Schoolbook Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_w8_bak" layoutX="435.0" layoutY="293.0" mnemonicParsing="false" onAction="#click_bak" prefHeight="28.0" prefWidth="63.0" style="-fx-background-color: D0DBCA;" text="Back" textFill="#b1917a">
+         <font>
+            <Font name="Century Schoolbook Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
